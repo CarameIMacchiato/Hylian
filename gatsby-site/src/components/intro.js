@@ -4,7 +4,7 @@ const Intro = () => {
     
     return (
         <div className='ImgHome'>
-            <h2 style={{margin: '8rem', paddingTop: '10rem' , maxWidth: 500, color: 'white'}}
+            <h2 style={{margin: '8rem', marginTop: 0, paddingTop: '10rem' , maxWidth: 500, color: 'white'}}
             >Our Work</h2>
             <p style={{margin: '8rem', maxWidth: 500, color: 'white',}}
             >We are a team created at the University of Washington created to solve the issue of
