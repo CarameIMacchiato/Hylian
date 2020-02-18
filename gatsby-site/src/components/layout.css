@@ -624,6 +624,7 @@ pre tt:after {
 .flex-container {
   display: flex;
   flex-flow: row wrap;
+  margin: auto;
 }
 
 .flex-item {
@@ -634,6 +635,10 @@ pre tt:after {
   font-size: 12px;
   text-align: center;
   padding-top: 40px;
+}
+
+#teamSection {
+  padding-left: 16%;
 }
 
 .ImgHome {

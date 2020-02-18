@@ -41,9 +41,9 @@ const Layout = ({ children }) => {
         
         <main>{children}
           <Solution></Solution>
+          <Team></Team>
         </main>
-        <Team></Team>
-        
+
         <footer class="footer">
           iSchool Capstone 2020, Built with
           {` `}
