@@ -38,7 +38,9 @@ const Header = ({ siteTitle }) => (
         style={{
           display: `flex`,
           float: "right",
-          justifyContent: "space-around"
+          justifyContent: "space-around",
+          width: "40%",
+          marginTop: "1rem"
         }}
       >
         <h3 style={{verticalAlign: "middle"}}>
