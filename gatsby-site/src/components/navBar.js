@@ -1,24 +1,30 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import scrollTo from 'gatsby-plugin-smoothscroll';
+
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `#383a56`,
       marginBottom: `1.45rem`,
+      display: "flex",
+      // position: "fixed",
     }}
   >
     <div
       style={{
         margin: `0 auto`,
+        marginLeft: '0',
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
         display: `flex`,
-        alignContent: `middle`
+        alignContent: `middle`,
+        alignItems: `middle`
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ marginRight: '10px', marginLeft: '10px' }}>
         <Link
           to="/"
           style={{
@@ -28,18 +34,46 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h1>
-      <div
+        </h1>
+    </div>
+    <div
         style={{
           display: `flex`,
-          float: `right`,
         }}
       >
-        <h2 style={{ margin: `0`, verticalAlign: `bottom`,}}>Problem</h2>
-        <h2 style={{ margin: `0`, verticalAlign: `bottom`,}}>Solution</h2>
-        <h2 style={{ margin: `0`, verticalAlign: `bottom`,}}>Team</h2>
+        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px', }}>
+          <a href="" style={{
+            color: '#EDE68A',
+            textDecoration: `none`,
+          }}>
+            Problem
+          </a>
+        </h3>
+        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px', cursor: "pointer"}}>
+          <a onClick={() => scrollTo('#solutionSection')} style={{
+            color: '#EDE68A',
+            textDecoration: `none`,
+          }}>
+            Solution
+          </a>
+        </h3>
+        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px', cursor: "pointer"}}>
+          <a onClick={() => scrollTo('#teamSection')} style={{
+            color: '#EDE68A',
+            textDecoration: `none`,
+          }}>
+            Team
+          </a>
+        </h3>
+        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px',}}>
+          <a href="" style={{
+            color: '#ff7c7c',
+            textDecoration: `none`,
+          }}>
+            Download
+          </a>
+        </h3>
       </div>
-    </div>
   </header>
 )
 
