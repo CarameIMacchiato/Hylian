@@ -30,7 +30,10 @@ const Team = () => {
                 <div class="flex-item">
                     <h3>Kiley Wong</h3>
                     <img style={{width: '300px', height: '300px'}} src={KileyImg} alt='photo of kiley'/>
-                    <p>Paragraph about the team member</p>
+                    <p>Hi! I am a graduating senior majoring in Informatics. I am not a big video game player.
+                        I hope that people who like to play games but suffer from accessibility issues are 
+                        able to enjoy their gaming experience. 
+                    </p>
                     <p>Email: <a href="emailto:ppatel18@uw.edu" >kaw29@uw.edu</a></p>
                 </div>
                 <div class="flex-item">
