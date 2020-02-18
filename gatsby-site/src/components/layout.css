@@ -632,14 +632,34 @@ pre tt:after {
   flex: 0 50%;
 }
 
+.flex-item p {
+  max-width: 400px;
+}
+
 .footer {
   font-size: 12px;
   text-align: center;
   padding-top: 40px;
+  background-color: #2f3032;
+  color: whitesmoke;
+}
+
+.footer a {
+  color: whitesmoke;
 }
 
 #teamSection {
+  padding-top: 3rem;
   padding-left: 16%;
+  background-color: #383a56;
+}
+
+#teamSection p, h2, h3 {
+  color: whitesmoke;
+}
+
+#teamSection a {
+  color: #ede68a;
 }
 
 .ImgHome {

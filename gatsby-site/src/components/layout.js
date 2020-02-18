@@ -30,7 +30,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <Intro ></Intro >
       <div
         style={{
           margin: `0 auto`,
@@ -40,6 +39,7 @@ const Layout = ({ children }) => {
       >
         
         <main>{children}
+          <Intro ></Intro >
           <Solution></Solution>
           <Team></Team>
         </main>
