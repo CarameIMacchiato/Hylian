@@ -9,7 +9,7 @@ import CarmImg from '../images/carm.png';
 const Team = () => {
     
     return (
-        <div>
+        <div id="teamSection">
             <h2>The Team</h2>
             <div class="flex-container">
                 <div class="flex-item">

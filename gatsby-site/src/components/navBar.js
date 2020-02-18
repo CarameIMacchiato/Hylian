@@ -1,6 +1,8 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import scrollTo from 'gatsby-plugin-smoothscroll';
+
 
 const Header = ({ siteTitle }) => (
   <header
@@ -41,36 +43,36 @@ const Header = ({ siteTitle }) => (
         }}
       >
         <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px', }}>
-          <Link to="" style={{
+          <a href="" style={{
             color: '#EDE68A',
             textDecoration: `none`,
           }}>
             Problem
-          </Link>
+          </a>
         </h3>
-        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px',}}>
-          <Link to="" style={{
+        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px', cursor: "pointer"}}>
+          <a onClick={() => scrollTo('#solutionSection')} style={{
             color: '#EDE68A',
             textDecoration: `none`,
           }}>
             Solution
-          </Link>
+          </a>
         </h3>
-        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px',}}>
-          <Link to="" style={{
+        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px', cursor: "pointer"}}>
+          <a onClick={() => scrollTo('#teamSection')} style={{
             color: '#EDE68A',
             textDecoration: `none`,
           }}>
             Team
-          </Link>
+          </a>
         </h3>
         <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px',}}>
-          <Link to="" style={{
+          <a href="" style={{
             color: '#ff7c7c',
             textDecoration: `none`,
           }}>
             Download
-          </Link>
+          </a>
         </h3>
       </div>
   </header>

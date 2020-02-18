@@ -6,7 +6,7 @@ import pose from "../images/ds3Pose.jpeg";
 const Solution = () => {
     
     return (
-        <div style={{width: "100%", backgroundColor: "#2f3032", paddingTop: "5rem", paddingBottom: "5rem"}}>
+        <div id="solutionSection" style={{width: "100%", backgroundColor: "#2f3032", paddingTop: "5rem", paddingBottom: "5rem"}}>
             <div>
                 <h1 style={{marginLeft: "5rem", color: "white",}}>The Solution</h1>
             </div>
