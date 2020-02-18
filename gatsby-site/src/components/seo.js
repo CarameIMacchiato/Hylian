@@ -28,8 +28,8 @@ function SEO({ description, lang, meta, title }) {
   const metaDescription = description || site.siteMetadata.description
 
   return (
-    <Helmet
-      htmlAttributes={{
+    <Helmet 
+    htmlAttributes={{
         lang,
       }}
       title={title}
@@ -38,6 +38,11 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          property: 'link',
+          href: 'https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap',
+          rel: 'stylesheet'
         },
         {
           property: `og:title`,
@@ -68,6 +73,7 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
+      
     />
   )
 }

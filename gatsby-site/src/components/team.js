@@ -39,8 +39,9 @@ const Team = () => {
                 <div class="flex-item">
                     <h3>Carmelito Gutierrez</h3>
                     <img style={{width: '300px', height: '300px'}} src={CarmImg} alt='photo of carmelito'/>
-                    <p>I am an Informatics major with a focus in Human-Computer Interaction. I am involved in researching accessibility
-                        in video games, designing mockups, and managing the schedule, etc.
+                    <p>
+                        I am an Informatics major with a focus in Human-Computer Interaction. I am involved in research and design for this project.
+                        I enjoy playing video games and would like to help other be able to more easily play games.
                     </p>
                     <p>Email: <a href="emailto:ppatel18@uw.edu" >crjg@uw.edu</a></p>
                 </div>
