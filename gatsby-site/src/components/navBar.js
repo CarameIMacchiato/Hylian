@@ -7,9 +7,12 @@ import scrollTo from 'gatsby-plugin-smoothscroll';
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#383a56`,
+      background: "rgba(56, 58, 86, .9)",
       display: "flex",
-      // position: "fixed",
+      position: "fixed",
+      width: "100%",
+      height: "10vh",
+      // opacity: "50%"
     }}
   >
     <div
@@ -17,15 +20,15 @@ const Header = ({ siteTitle }) => (
         margin: `0 auto`,
         marginLeft: '0',
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `.5rem .5rem`,
         display: `flex`,
         alignContent: `middle`,
         alignItems: `middle`
       }}
     >
-      <h1 style={{ marginRight: '10px', marginLeft: '10px' }}>
+      <h1 style={{ marginRight: '10px', marginLeft: '10px'}}>
         <Link
-          to="/"
+          to="#home"
           style={{
             color: `white`,
             textDecoration: `none`,
@@ -40,7 +43,7 @@ const Header = ({ siteTitle }) => (
           display: `flex`,
         }}
       >
-        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px', }}>
+        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '20px', }}>
           <a href="" style={{
             color: '#EDE68A',
             textDecoration: `none`,
@@ -48,7 +51,7 @@ const Header = ({ siteTitle }) => (
             Problem
           </a>
         </h3>
-        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px', cursor: "pointer"}}>
+        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '20px', cursor: "pointer"}}>
           <a onClick={() => scrollTo('#solutionSection')} style={{
             color: '#EDE68A',
             textDecoration: `none`,
@@ -56,7 +59,7 @@ const Header = ({ siteTitle }) => (
             Solution
           </a>
         </h3>
-        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px', cursor: "pointer"}}>
+        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '20px', cursor: "pointer"}}>
           <a onClick={() => scrollTo('#teamSection')} style={{
             color: '#EDE68A',
             textDecoration: `none`,
@@ -64,7 +67,7 @@ const Header = ({ siteTitle }) => (
             Team
           </a>
         </h3>
-        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px',}}>
+        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '20px',}}>
           <a href="" style={{
             color: '#ff7c7c',
             textDecoration: `none`,
