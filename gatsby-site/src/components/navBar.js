@@ -7,18 +7,23 @@ const Header = ({ siteTitle }) => (
     style={{
       background: `#383a56`,
       marginBottom: `1.45rem`,
+      display: "flex",
+
     }}
   >
     <div
       style={{
         margin: `0 auto`,
+        marginLeft: '0',
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
         display: `flex`,
-        alignContent: `middle`
+        alignContent: `middle`,
+        alignItems: `middle`
+        
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ marginRight: '10px', marginLeft: '10px' }}>
         <Link
           to="/"
           style={{
@@ -28,18 +33,46 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h1>
-      <div
+        </h1>
+    </div>
+    <div
         style={{
           display: `flex`,
-          float: `right`,
         }}
       >
-        <h2 style={{ margin: `0`, verticalAlign: `bottom`,}}>Problem</h2>
-        <h2 style={{ margin: `0`, verticalAlign: `bottom`,}}>Solution</h2>
-        <h2 style={{ margin: `0`, verticalAlign: `bottom`,}}>Team</h2>
+        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px', }}>
+          <Link to="" style={{
+            color: '#EDE68A',
+            textDecoration: `none`,
+          }}>
+            Problem
+          </Link>
+        </h3>
+        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px',}}>
+          <Link to="" style={{
+            color: '#EDE68A',
+            textDecoration: `none`,
+          }}>
+            Solution
+          </Link>
+        </h3>
+        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px',}}>
+          <Link to="" style={{
+            color: '#EDE68A',
+            textDecoration: `none`,
+          }}>
+            Team
+          </Link>
+        </h3>
+        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '40px',}}>
+          <Link to="" style={{
+            color: '#ff7c7c',
+            textDecoration: `none`,
+          }}>
+            Download
+          </Link>
+        </h3>
       </div>
-    </div>
   </header>
 )
 
