@@ -619,6 +619,7 @@ pre tt:after {
   display: flex;
   flex-flow: row wrap;
   margin: auto;
+  justify-content: center;
 }
 
 .flex-item {
