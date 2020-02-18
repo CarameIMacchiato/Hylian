@@ -13,20 +13,16 @@ const Header = ({ siteTitle }) => (
       width: "100%",
       height: "10vh",
       // opacity: "50%"
+      verticalAlign: "middle",
+      justifyContent: "space-between"
     }}
   >
     <div
       style={{
-        margin: `0 auto`,
-        marginLeft: '0',
-        maxWidth: 960,
-        padding: `.5rem .5rem`,
-        display: `flex`,
-        alignContent: `middle`,
-        alignItems: `middle`
+       
       }}
     >
-      <h1 style={{ marginRight: '10px', marginLeft: '10px'}}>
+      <h1 style={{}}>
         <Link
           to="#home"
           style={{
@@ -41,9 +37,11 @@ const Header = ({ siteTitle }) => (
     <div
         style={{
           display: `flex`,
+          float: "right",
+          justifyContent: "space-around"
         }}
       >
-        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '20px', }}>
+        <h3 style={{verticalAlign: "middle"}}>
           <a href="" style={{
             color: '#EDE68A',
             textDecoration: `none`,
@@ -51,7 +49,7 @@ const Header = ({ siteTitle }) => (
             Problem
           </a>
         </h3>
-        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '20px', cursor: "pointer"}}>
+        <h3 style={{cursor: "pointer"}}>
           <a onClick={() => scrollTo('#solutionSection')} style={{
             color: '#EDE68A',
             textDecoration: `none`,
@@ -59,7 +57,7 @@ const Header = ({ siteTitle }) => (
             Solution
           </a>
         </h3>
-        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '20px', cursor: "pointer"}}>
+        <h3 style={{cursor: "pointer"}}>
           <a onClick={() => scrollTo('#teamSection')} style={{
             color: '#EDE68A',
             textDecoration: `none`,
@@ -67,7 +65,7 @@ const Header = ({ siteTitle }) => (
             Team
           </a>
         </h3>
-        <h3 style={{ marginRight: `10px`, marginLeft: '10px', marginTop: '20px',}}>
+        <h3 style={{}}>
           <a href="" style={{
             color: '#ff7c7c',
             textDecoration: `none`,
