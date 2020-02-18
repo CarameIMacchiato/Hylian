@@ -40,11 +40,13 @@ const Layout = ({ children }) => {
           <Solution></Solution>
         </main>
         <Team></Team>
-        <footer>
-          © {new Date().getFullYear()}, Built with
+        
+        <footer class="footer">
+          iSchool Capstone 2020, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
+
       </div>
     </>
   )
