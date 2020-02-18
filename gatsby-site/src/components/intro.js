@@ -3,7 +3,7 @@ import React from "react"
 const Intro = () => {
     
     return (
-        <div className='ImgHome'>
+        <div className='ImgHome' id="home">
             <h2 style={{margin: '8rem', marginTop: 0, paddingTop: '10rem' , maxWidth: 500, color: 'white'}}
             >Our Work</h2>
             <p style={{margin: '8rem', maxWidth: 500, color: 'white',}}
