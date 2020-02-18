@@ -33,7 +33,9 @@ const Team = () => {
                 <div class="flex-item">
                     <h3>Carmelito Gutierrez</h3>
                     <img style={{width: '300px', height: '300px'}} src={CarmImg} alt='photo of carmelito'/>
-                    <p>Paragraph about the team member</p>
+                    <p>I am an Informatics major with a focus in Human-Computer Interaction. I am involved in researching accessibility
+                        in video games, designing mockups, and managing the schedule, etc.
+                    </p>
                     <p>Email: <a href="emailto:ppatel18@uw.edu" >crjg@uw.edu</a></p>
                 </div>
             </div>
