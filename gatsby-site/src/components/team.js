@@ -21,7 +21,10 @@ const Team = () => {
                 <div class="flex-item">
                     <h3>Alex Wong</h3>
                     <img style={{width: '300px', height: '300px'}} src={AlexImg} alt='photo of alex'/>
-                    <p>Paragraph about the team member</p>
+                    <p>I am a fullstack software developer at UW in the Informatics department. I am currently working as the 
+                        web team lead at a startup called SENSOL Systems. I enjoy playing basketball and listenting to music 
+                        in my free time.
+                    </p>
                     <p>Email: <a href="emailto:ppatel18@uw.edu" >alwong34@uw.edu</a></p>
                 </div>
                 <div class="flex-item">
