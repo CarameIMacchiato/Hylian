@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
       background: `#383a56`,
       marginBottom: `1.45rem`,
       display: "flex",
-
+      // position: "fixed",
     }}
   >
     <div
@@ -22,7 +22,6 @@ const Header = ({ siteTitle }) => (
         display: `flex`,
         alignContent: `middle`,
         alignItems: `middle`
-        
       }}
     >
       <h1 style={{ marginRight: '10px', marginLeft: '10px' }}>
