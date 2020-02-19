@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/Hylian",
   siteMetadata: {
     title: `Access`,
     description: `Page for capstone project Access about accessibility in video games`,
@@ -26,15 +27,6 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
-    },
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          `poppins\:300, 500, 700`
-        ],
-        display: 'swap'
-      }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
