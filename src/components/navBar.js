@@ -19,19 +19,17 @@ const Header = ({ siteTitle }) => (
   >
     <div
       style={{
-       
+        marginTop: ".75rem",
+        marginLeft: "1rem"
       }}
     >
       <h1 style={{}}>
-        <Link
-          to="#home"
-          style={{
-            color: `white`,
+        <a onClick={() => scrollTo('#home')} style={{
+            color: 'white',
             textDecoration: `none`,
-          }}
-        >
+          }}>
           {siteTitle}
-        </Link>
+        </a>
         </h1>
     </div>
     <div
@@ -43,8 +41,8 @@ const Header = ({ siteTitle }) => (
           marginTop: "1rem"
         }}
       >
-        <h3 style={{verticalAlign: "middle"}}>
-          <a href="" style={{
+        <h3 style={{cursor: "pointer"}}>
+          <a onClick={() => scrollTo('#problemSection')} style={{
             color: '#EDE68A',
             textDecoration: `none`,
           }}>
