@@ -14,6 +14,7 @@ import Team from "./team"
 import Intro from "./intro"
 import "./layout.css"
 import Solution from "./solution"
+import Problem from "./problem"
 
 
 const Layout = ({ children }) => {
@@ -40,14 +41,13 @@ const Layout = ({ children }) => {
         
         <main>{children}
           <Intro ></Intro >
+          <Problem></Problem>
           <Solution></Solution>
           <Team></Team>
         </main>
 
         <footer class="footer">
-          iSchool Capstone 2020, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          iSchool Capstone 2020, This project is a part of the <a href="https://ischool.uw.edu/capstone">Capstone Project</a> course at the University of Washington Information School 
         </footer>
 
       </div>
