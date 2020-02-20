@@ -620,11 +620,14 @@ pre tt:after {
   flex-flow: row wrap;
   margin: auto;
   justify-content: center;
+  width: 50%;
 }
 
 .flex-item {
   flex: 0 50%;
   justify-content: center;
+  border: 5px solid white;
+  margin: auto;
 }
 
 .flex-item p {
@@ -645,7 +648,6 @@ pre tt:after {
 
 #teamSection {
   padding-top: 3rem;
-  padding-left: 16%;
   background-color: #383a56;
 }
 
