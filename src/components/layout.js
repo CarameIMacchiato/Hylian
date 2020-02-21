@@ -47,7 +47,7 @@ const Layout = ({ children }) => {
         </main>
 
         <footer class="footer">
-          iSchool Capstone 2020, This project is a part of the <a href="https://ischool.uw.edu/capstone">Capstone Project</a> course at the University of Washington Information School 
+          Team Hylian | iSchool Capstone 2020, This project is a part of the <a href="https://ischool.uw.edu/capstone">Capstone Project</a> course at the University of Washington Information School 
         </footer>
 
       </div>

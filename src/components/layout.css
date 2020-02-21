@@ -218,7 +218,6 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 h1 {
   margin-left: 0;
@@ -378,7 +377,6 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 figure {
   margin-left: 0;
@@ -620,10 +618,13 @@ pre tt:after {
   flex-flow: row wrap;
   margin: auto;
   justify-content: center;
-  width: 50%;
+  align-items: center;
+  width: 75%;
 }
 
 .flex-item {
+  display: flex;
+  align-items: center;
   flex: 0 50%;
   justify-content: center;
   margin: auto;
@@ -637,14 +638,15 @@ pre tt:after {
 .footer {
   font-size: 12px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 25px;
   background-color: #020A0F;
-  color: whitesmoke;
+  color: gray;
   vertical-align: middle;
 }
 
 .footer a {
-  color: whitesmoke;
+  color: #ede68a;
+  text-decoration: none;
 }
 
 #teamSection {
@@ -657,7 +659,7 @@ pre tt:after {
 }
 
 #teamSection > div:first-of-type {
-  width: 50%;
+  display: flex;
   justify-content: center;
   margin: auto;
 }
@@ -666,8 +668,28 @@ pre tt:after {
   padding-bottom: 1rem;
 }
 
+#solutionSection > div:first-of-type {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#solutionSection h1 {
+  padding-bottom: 1rem;
+}
+
 #teamSection a {
   color: #ede68a;
+}
+
+#problemSection > div {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#problemSection h1 {
+  padding-bottom: 1rem;
 }
 
 .ImgHome {
