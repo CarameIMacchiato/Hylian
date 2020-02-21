@@ -7,7 +7,7 @@ import scrollTo from 'gatsby-plugin-smoothscroll';
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: "rgba(56, 58, 86, .9)",
+      background: "rgba(28, 31, 45, .6)",
       display: "flex",
       position: "fixed",
       width: "100%",

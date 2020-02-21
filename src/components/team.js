@@ -10,10 +10,12 @@ const Team = () => {
     
     return (
         <div id="teamSection">
-            <h2>The Team</h2>
+            <div>
+                <h1>The Team</h1>
+            </div>
             <div class="flex-container">
                 <div class="flex-item">
-                    <h3>Priti Patel</h3>
+                    <h2>Priti Patel</h2>
                     <img style={{width: '300px', height: '300px'}} src={PritiImg} alt='priti'/>
                     <p>
                     	I'm a senior double majoring in Informatics and Communications. I am a UX designer with a passion for creating accessible designs.
@@ -22,7 +24,7 @@ const Team = () => {
                     <p>Email: <a href="emailto:ppatel18@uw.edu" >ppatel18@uw.edu</a></p>
                 </div>
                 <div class="flex-item">
-                    <h3>Alex Wong</h3>
+                    <h2>Alex Wong</h2>
                     <img style={{width: '300px', height: '300px'}} src={AlexImg} alt='alex'/>
                     <p>I am a fullstack software developer at UW in the Informatics department. I am currently working as the 
                         web team lead at a startup called SENSOL Systems. I enjoy playing basketball and listenting to music 
@@ -31,7 +33,7 @@ const Team = () => {
                     <p>Email: <a href="emailto:alwong34@uw.edu" >alwong34@uw.edu</a></p>
                 </div>
                 <div class="flex-item">
-                    <h3>Kiley Wong</h3>
+                    <h2>Kiley Wong</h2>
                     <img style={{width: '300px', height: '300px'}} src={KileyImg} alt='kiley'/>
                     <p>Hi! I am a graduating senior majoring in Informatics. I am not a big video game player.
                         I hope that people who like to play games but suffer from accessibility issues are 
@@ -40,7 +42,7 @@ const Team = () => {
                     <p>Email: <a href="emailto:kaw29@uw.edu" >kaw29@uw.edu</a></p>
                 </div>
                 <div class="flex-item">
-                    <h3>Carmelito Gutierrez</h3>
+                    <h2>Carmelito Gutierrez</h2>
                     <img style={{width: '300px', height: '300px'}} src={CarmImg} alt='carmelito'/>
                     <p>
                         I am an Informatics major with a focus in Human-Computer Interaction. I am involved in research and design for this project.

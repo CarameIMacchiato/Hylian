@@ -626,8 +626,8 @@ pre tt:after {
 .flex-item {
   flex: 0 50%;
   justify-content: center;
-  border: 5px solid white;
   margin: auto;
+  padding-bottom: 2rem;
 }
 
 .flex-item p {
@@ -637,9 +637,10 @@ pre tt:after {
 .footer {
   font-size: 12px;
   text-align: center;
-  padding-top: 40px;
-  background-color: #2f3032;
+  padding-top: 20px;
+  background-color: #020A0F;
   color: whitesmoke;
+  vertical-align: middle;
 }
 
 .footer a {
@@ -647,15 +648,21 @@ pre tt:after {
 }
 
 #teamSection {
-  padding-top: 3rem;
-  background-color: #383a56;
+  padding-top: 2rem;
+  background-color: #1C1F2D;
 }
 
-#teamSection p, h2, h3 {
+#teamSection p, h1, h2 {
   color: whitesmoke;
 }
 
-#teamSection h2 {
+#teamSection > div:first-of-type {
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+}
+
+#teamSection h1 {
   padding-bottom: 1rem;
 }
 
@@ -664,8 +671,8 @@ pre tt:after {
 }
 
 .ImgHome {
-  background-image: linear-gradient(0deg, rgba(37, 37, 37, 0.781), rgba(37, 37, 37, 0.753)), 
-    url(../images/137249-games-review-dark-souls-3-review-image1-t9o4hek6l3-jpg.webp);
+  background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.822), rgba(22, 22, 22, 0.815)), 
+    url(../images/ds3sky.jpg);
   background-size: cover;
   height: 800px;
   background-position: center;
