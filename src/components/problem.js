@@ -4,7 +4,7 @@ const Problem = () => {
     
     return (
         
-        <div id="problemSection" style={{width: "100%", paddingLeft: "8rem", backgroundColor: "#1C1F2D", paddingTop: "5rem", paddingBottom: "5rem"}}>
+        <div id="problemSection" style={{width: "100%", backgroundColor: "#1C1F2D", paddingTop: "5rem", paddingBottom: "5rem"}}>
             <div>
                 <h1 style={{color: "white"}}>Problems in Game Accessibility</h1>
             </div>

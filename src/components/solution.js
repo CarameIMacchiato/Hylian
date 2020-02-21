@@ -10,7 +10,7 @@ const Solution = () => {
             <div>
                 <h1 style={{color: "white",}}>The Solution</h1>
             </div>
-            <div style={{display: "flex", flexDirection: "row",}}>
+            <div style={{display: "flex", flexDirection: "row"}}>
                 <p style={{fontSize: "16pt", marginLeft: "5rem", color: "white"}}>
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
