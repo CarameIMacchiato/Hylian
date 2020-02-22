@@ -45,6 +45,11 @@ function SEO({ description, lang, meta, title }) {
           rel: 'stylesheet'
         },
         {
+          property: 'link',
+          href: 'https://fonts.googleapis.com/css?family=Averia+Serif+Libre:400,700&display=swap',
+          rel: 'stylesheet'
+        },
+        {
           property: `og:title`,
           content: title,
         },
