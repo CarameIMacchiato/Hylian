@@ -50,6 +50,11 @@ function SEO({ description, lang, meta, title }) {
           rel: 'stylesheet'
         },
         {
+          property: 'script',
+          src: 'https://kit.fontawesome.com/a1869baa5c.js',
+          crossorigin: 'anonymous'
+        },
+        {
           property: `og:title`,
           content: title,
         },
