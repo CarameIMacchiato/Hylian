@@ -46,7 +46,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: 'link',
-          href: 'https://fonts.googleapis.com/css?family=Averia+Serif+Libre:400,700&display=swap',
+          href: 'http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css',
           rel: 'stylesheet'
         },
         {

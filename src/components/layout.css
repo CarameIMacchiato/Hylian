@@ -1,5 +1,5 @@
 html {
-  font-family: 'Averia Serif Libre', serif;
+  font-family: 'Open Sans', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -615,7 +615,7 @@ pre tt:after {
 
 .flex-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   margin: auto;
   justify-content: center;
   align-items: center;
@@ -624,15 +624,20 @@ pre tt:after {
 
 .flex-item {
   display: flex;
-  align-items: center;
-  flex: 0 50%;
+  flex: 0 25%;
   justify-content: center;
-  margin: auto;
   padding-bottom: 2rem;
+  align-self: stretch;
+  align-items: stretch;
 }
 
 .flex-item p {
-  max-width: 400px;
+  max-width: 200px;
+  font-size: 14px;
+}
+
+.flex-item h2 {
+  font-size: 26px;
 }
 
 .footer {

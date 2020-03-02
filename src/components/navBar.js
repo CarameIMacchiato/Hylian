@@ -6,7 +6,7 @@ import scrollTo from 'gatsby-plugin-smoothscroll';
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: "rgba(28, 31, 45, .4)",
+      background: "rgba(28, 31, 45, .5)",
       display: "flex",
       position: "fixed",
       width: "100%",
@@ -25,22 +25,22 @@ const Header = ({ siteTitle }) => (
     <div style={{display: `flex`, float: "right", justifyContent: "space-around", marginTop: "1rem"}}>
         <ul>
           <li style={{listStyleType: "none"}}>
-            <a onClick={() => scrollTo('#problemSection')} style={{color: '#EDE68A', textDecoration: `none`, cursor: "pointer"}}>
+            <a onClick={() => scrollTo('#problemSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
               Problem
             </a>
           </li>
           <li style={{listStyleType: "none"}}>
-            <a onClick={() => scrollTo('#solutionSection')} style={{color: '#EDE68A', textDecoration: `none`, cursor: "pointer"}}>
+            <a onClick={() => scrollTo('#solutionSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
               Solution
             </a>
           </li>
           <li style={{listStyleType: "none"}}>
-            <a onClick={() => scrollTo('#teamSection')} style={{color: '#EDE68A', textDecoration: `none`, cursor: "pointer"}}>
+            <a onClick={() => scrollTo('#teamSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
               Team
             </a>
           </li>
           <li style={{listStyleType: "none"}}>
-            <a href="" style={{color: '#ff7c7c', textDecoration: `none`, cursor: "pointer"}}>
+            <a href="" style={{color: '#EDE68A', textDecoration: `none`, cursor: "pointer"}}>
               Download
             </a>
           </li>
