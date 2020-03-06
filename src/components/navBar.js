@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
         </a>
         </h1>
     </div>
-    <div style={{display: `flex`, float: "right", justifyContent: "space-around", marginTop: "1rem"}}>
+    <div style={{display: `flex`, justifyContent: "space-around", marginTop: "1rem"}}>
         <ul>
           <li style={{listStyleType: "none"}}>
             <a onClick={() => scrollTo('#problemSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
