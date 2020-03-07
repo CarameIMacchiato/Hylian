@@ -16,8 +16,8 @@ const Team = () => {
             <div class="flex-container">
                 <div class="flex-item">
                     <div>
-                        <h2>Priti Patel</h2>
                         <img style={{width: '200px', height: '200px'}} src={PritiImg} alt='priti'/>
+                        <h2>Priti Patel</h2>
                         <div>
                             <p>
                                 I'm a senior double majoring in Informatics and Communications. I am a UX designer with a passion for creating accessible designs.
@@ -29,8 +29,8 @@ const Team = () => {
                 </div>
                 <div class="flex-item">
                     <div>
-                        <h2>Alex Wong</h2>
                         <img style={{width: '200px', height: '200px'}} src={AlexImg} alt='alex'/>
+                        <h2>Alex Wong</h2>
                         <p>I am a fullstack software developer at UW in the Informatics department. I am currently working as the 
                             web team lead at a startup called SENSOL Systems. I enjoy playing basketball and listenting to music 
                             in my free time.
@@ -40,8 +40,8 @@ const Team = () => {
                 </div>
                 <div class="flex-item">
                     <div>
-                        <h2>Kiley Wong</h2>
                         <img style={{width: '200px', height: '200px'}} src={KileyImg} alt='kiley'/>
+                        <h2>Kiley Wong</h2>
                         <p>Hi! I am a graduating senior majoring in Informatics. I am not a big video game player.
                             I hope that people who like to play games but suffer from accessibility issues are 
                             able to enjoy their gaming experience. 
@@ -51,8 +51,8 @@ const Team = () => {
                 </div>
                 <div class="flex-item">
                     <div>
-                        <h2>Carmelito Gutierrez</h2>
                         <img style={{width: '200px', height: '200px'}} src={CarmImg} alt='carmelito'/>
+                        <h2>Carmelito Gutierrez</h2>
                         <p>
                             I am an Informatics major with a focus in Human-Computer Interaction. I am involved in research and design for this project.
                             I enjoy playing video games and would like to help other be able to more easily play games.

@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import React from "react"
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
+import Logo from '../images/logosmall.png';
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
@@ -12,17 +14,14 @@ const Header = ({ siteTitle }) => (
       width: "100%",
       height: "70px",
       verticalAlign: "middle",
-      justifyContent: "space-between"
+      justifyContent: "space-between",
+      alignItems: 'center'
     }}>
 
-    <div style={{marginTop: ".75rem", marginLeft: "1rem"}}>
-      <h1 style={{cursor: "pointer"}}>
-        <a onClick={() => scrollTo('#home')} style={{color: 'white', textDecoration: `none`}}>
-          {siteTitle}
-        </a>
-        </h1>
+    <div style={{marginLeft: "1rem"}}>
+        <img src={Logo} onClick={() => scrollTo('#home')} style={{cursor: "pointer", maxWidth: '100%', height: 'auto'}} />
     </div>
-    <div style={{display: `flex`, justifyContent: "space-around", marginTop: "1rem"}}>
+    <div style={{display: `flex`, alignItems: 'center'}}>
         <ul>
           <li style={{listStyleType: "none"}}>
             <a onClick={() => scrollTo('#problemSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
