@@ -718,10 +718,10 @@ header li {
 }
 
 button {
-  background-color: #EDE68A;
+  background-color: rgb(219, 139, 34);
   cursor: pointer;
   border: none;
-  color: black;
+  color: white;
   text-align: center;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
