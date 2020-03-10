@@ -10,32 +10,55 @@ const Solution = () => {
             <div>
                 <h1 style={{color: "white",}}>The Solution</h1>
             </div>
-            <div style={{display: "flex", flexDirection: "row"}}>
-                <p style={{fontSize: "16pt", marginLeft: "5rem", color: "white"}}>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborumh
-                </p>
-                <img style={{width: "50%", marginLeft: "3rem", marginRight: "5rem", flexShrink: "0"}} src={mockup} alt="dark souls 3 scenic"></img>
-            </div>
-            <div style={{display: "flex", flexDirection: "row", marginTop: "7rem", marginBottom: "7rem"}}>
-                <img style={{width: "50%", marginLeft: "3rem", marginRight: "3rem", flexShrink: "0"}} src={hud1} alt="dark souls 3 flaming sword character"></img>
-                <p style={{fontSize: "16pt", color: "white"}}>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborumh
-                </p>
-            </div>
-            <div style={{display: "flex", flexDirection: "row",}}>
-                <p style={{fontSize: "16pt", color: "white", marginLeft: "5rem"}}>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborumh
-                </p>
-                <img style={{width: "60%", marginLeft: "3rem", marginRight: "3rem", flexShrink: "0"}} src={hud2} alt="dark souls 3 dual sword character"></img>
+            <div className='s-flex-container'>
+                <div style={{display: "flex", flexDirection: "row"}}>
+                    <div>
+                        <h2>Colorblind Options</h2>
+                        <p style={{fontSize: "16pt", color: "white"}}>
+                            For players with colorblindness, it can be difficult to see or differentiate in-game objects. 
+                            To solve this, we have created a colorblind mode that should allow players to more easily 
+                            distinguish in-game objects.
+                        </p>
+                    </div>
+                    <img style={{width: "50%", flexShrink: "0"}} src={mockup} alt="mockup showing new colorblind colors"></img>
+                </div>
+                <div style={{display: "flex", flexDirection: "row",}}>
+                    <img style={{width: "50%", flexShrink: "0"}} src={hud1} alt="mockup comparing old hud size to bigger hud size"></img>
+                    <div >
+                        <h2 style={{textAlign: 'right'}}>Increased HUD Size</h2>
+                        <p style={{fontSize: "16pt", color: "white", textAlign: 'right'}}>
+                            HUD elements on screen, also known as the Heads Up Display, 
+                            tells players important elements about the game. Sometimes, they can 
+                            be hard to see or read, so we created a toggle for increasing the 
+                            size of those elements.  
+                        </p>
+                    </div>
+                </div>
+                <div style={{display: "flex", flexDirection: "row",}}>
+                    <div>
+                        <h2>Increased Contrast</h2>
+                        <p style={{fontSize: "16pt", color: "white"}}>
+                            To solve visual impairments that make it difficult for 
+                            players to see game objects, there will be an option to 
+                            increase the contrast of the game’s visuals.  
+                        </p>
+                    </div>
+                    <img style={{width: "60%", flexShrink: "0"}} src={hud2} alt="increased contrast comparison mockup"></img>
+                </div>
+                <div class='features'>
+                    <div>
+                        <h2 style={{textAlign: 'center'}}>More Features Coming Soon...</h2>
+                        <p style={{textAlign: 'center', color: 'white'}}>
+                            We will add more features to help with other impairments as development continues.
+                            <ul>
+                                <li style={{listStyle: 'none'}}>Difficulty Modes</li>
+                                <li style={{listStyle: 'none'}}>Larger Fonts Options</li>
+                                <li style={{listStyle: 'none'}}>Slow Motion Mode</li>
+                                <li style={{listStyle: 'none'}}>Haptic and Noise Feedback</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         

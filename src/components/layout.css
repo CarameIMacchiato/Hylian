@@ -620,6 +620,25 @@ pre tt:after {
   width: 75%;
 }
 
+.s-flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+  justify-content: center;
+  width: 75%;
+}
+
+.s-flex-container > div {
+  margin: 3rem 0;
+}
+
+.features {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .flex-item {
   display: flex;
   flex: 0 25%;
