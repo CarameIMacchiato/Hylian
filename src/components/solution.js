@@ -20,10 +20,10 @@ const Solution = () => {
                             distinguish in-game objects.
                         </p>
                     </div>
-                    <img style={{width: "50%", flexShrink: "0"}} src={mockup} alt="mockup showing new colorblind colors"></img>
+                    <img style={{width: "50%", flexShrink: "0", marginLeft: '3rem'}} src={mockup} alt="mockup showing new colorblind colors"></img>
                 </div>
                 <div style={{display: "flex", flexDirection: "row",}}>
-                    <img style={{width: "50%", flexShrink: "0"}} src={hud1} alt="mockup comparing old hud size to bigger hud size"></img>
+                    <img style={{width: "50%", flexShrink: "0", marginRight: '3rem'}} src={hud1} alt="mockup comparing old hud size to bigger hud size"></img>
                     <div >
                         <h2 style={{textAlign: 'right'}}>Increased HUD Size</h2>
                         <p style={{fontSize: "16pt", color: "white", textAlign: 'right'}}>
@@ -43,7 +43,7 @@ const Solution = () => {
                             increase the contrast of the game’s visuals.  
                         </p>
                     </div>
-                    <img style={{width: "60%", flexShrink: "0"}} src={hud2} alt="increased contrast comparison mockup"></img>
+                    <img style={{width: "60%", flexShrink: "0", marginLeft: '3rem'}} src={hud2} alt="increased contrast comparison mockup"></img>
                 </div>
                 <div class='features'>
                     <div>
