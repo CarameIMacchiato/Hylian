@@ -2,10 +2,10 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import scrollTo from 'gatsby-plugin-smoothscroll';
-
+import {NavLink} from 'react-router-dom';
 import Logo from '../images/logosmall.png';
 
-const Header = ({ siteTitle }) => (
+const Navbar = ({ siteTitle }) => (
   <header
     style={{
       background: "rgba(28, 31, 45, .5)",
@@ -29,9 +29,9 @@ const Header = ({ siteTitle }) => (
             </a>
           </li>
           <li style={{listStyleType: "none"}}>
-            <a onClick={() => scrollTo('#solutionSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
+            <NavLink to="/auditory" style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
               Solution
-            </a>
+            </NavLink>
           </li>
           <li style={{listStyleType: "none"}}>
             <a onClick={() => scrollTo('#teamSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
@@ -48,12 +48,12 @@ const Header = ({ siteTitle }) => (
   </header>
 )
 
-Header.propTypes = {
+Navbar.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Header.defaultProps = {
+Navbar.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Navbar

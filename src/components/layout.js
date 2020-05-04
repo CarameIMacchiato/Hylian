@@ -1,20 +1,14 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./navBar"
-import Team from "./team"
-import Intro from "./intro"
+import Navbar from "./navBar"
+import Home from "./Home"
 import "./layout.css"
-import Solution from "./solution"
-import Problem from "./problem"
+import Cognitive from "./Cognitive"
+import Motor from "./Motor"
+import Visual from "./Visual"
+import Auditory from "./Auditory"
+import {Switch, NavLink, Route} from 'react-router-dom';
 
 
 const Layout = ({ children }) => {
@@ -30,7 +24,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Navbar siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
           margin: `0 auto`,
@@ -38,18 +32,19 @@ const Layout = ({ children }) => {
           padding: `0`,
         }}
       >
-        
-        <main>{children}
-          <Intro ></Intro >
-          <Problem></Problem>
-          <Solution></Solution>
-          <Team></Team>
-        </main>
 
+        
+        
+        <Switch>
+          <Route exact path='/' component={Home}/>
+          <Route exact path='/visual' component={Visual}/>
+          <Route exact path='/cognitive' component={Cognitive}/>
+          <Route exact path='/auditory' component={Auditory}/>
+          <Route exact path='/motor' component={Motor}/>
+        </Switch>
         <footer class="footer">
           Team Hylian | iSchool Capstone 2020, This project is a part of the <a href="https://ischool.uw.edu/capstone">Capstone Project</a> course at the University of Washington Information School 
         </footer>
-
       </div>
     </>
   )
