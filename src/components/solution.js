@@ -2,6 +2,7 @@ import React from "react";
 import mockup from "../images/ds3mock.png";
 import hud1 from "../images/ds3hud2.png";
 import hud2 from "../images/ds3hud.png";
+import {NavLink} from 'react-router-dom';
 
 const Solution = () => {
     
@@ -13,12 +14,16 @@ const Solution = () => {
             <div className='s-flex-container'>
                 <div style={{display: "flex", flexDirection: "row"}}>
                     <div>
-                        <h2>Colorblind Options</h2>
-                        <p style={{fontSize: "16pt", color: "white"}}>
-                            For players with colorblindness, it can be difficult to see or differentiate in-game objects. 
-                            To solve this, we have created a colorblind mode that should allow players to more easily 
-                            distinguish in-game objects.
+                        <h2>Cognitive Solutions</h2>
+                        <p style={{ color: "white"}}>
+                            Cognitive accessibility issues deal with a player’s ability to deal with 
+                            information processing and issues with thoughts or memory.
+                            Common cognitive issues that people face when playing games are difficulties 
+                            in reacting to action segments, not easily understanding what is happening in 
+                            the game or what they need to do, and being distracted by other things on the 
+                            screen. 
                         </p>
+                        <button ><NavLink style={{textDecoration: "none"}} to ="/cognitive">Read More</NavLink></button>
                     </div>
                     <img style={{width: "50%", flexShrink: "0", marginLeft: '3rem'}} src={mockup} alt="mockup showing new colorblind colors"></img>
                 </div>

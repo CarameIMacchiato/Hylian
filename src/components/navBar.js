@@ -24,6 +24,11 @@ const Navbar = ({ siteTitle }) => (
     <div style={{display: `flex`, alignItems: 'center'}}>
         <ul>
           <li style={{listStyleType: "none"}}>
+            <NavLink to="/" style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
+              Home
+            </NavLink>
+          </li>
+          <li style={{listStyleType: "none"}}>
             <a onClick={() => scrollTo('#problemSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
               Problem
             </a>
@@ -36,11 +41,6 @@ const Navbar = ({ siteTitle }) => (
           <li style={{listStyleType: "none"}}>
             <a onClick={() => scrollTo('#teamSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
               Team
-            </a>
-          </li>
-          <li style={{listStyleType: "none"}}>
-            <a href="" style={{color: '#EDE68A', textDecoration: `none`, cursor: "pointer"}}>
-              Download
             </a>
           </li>
         </ul>

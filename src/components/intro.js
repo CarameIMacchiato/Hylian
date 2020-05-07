@@ -20,7 +20,7 @@ const Intro = () => {
                 </div>
             </div>
             <div style={{display: "flex", paddingTop: '50px', justifyContent: 'center', alignItems: 'center'}}>
-                <button>Download Now</button>
+                <button>Learn More</button>
             </div>
         </div>
     )
