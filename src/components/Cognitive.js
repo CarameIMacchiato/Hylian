@@ -14,7 +14,6 @@ const Cognitive = () => {
                        but there is no standard and each game is different so it is difficult 
                        to know how effective each game is. 
                     </p>
-                    
                 </div>
                 <div style={{flex: "0 100%", textAlign: 'center'}}>
                     <h2 style={{color: "white"}}>Examples</h2>
