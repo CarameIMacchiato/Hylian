@@ -12,9 +12,10 @@ const Intro = () => {
                         </h1>
                         <p style={{color: 'white', paddingTop: '30px'}}>
                             We are a team created at the University of Washington created to solve the issue of
-                            accessibility in video games. We have chosen to work with the game Dark Souls 3 and 
-                            we are creating a mod that would allow users with disabilities to play their games with
-                            more ease.  
+                            accessibility in video games. We originally chose to work with the game Dark Souls 3 and 
+                            were creating a mod that would allow users with disabilities to play their games with
+                            more ease. In light of Covid-19, our resources were severely limited, and we chose to pivot towards
+                            researching and compiling information and guidelines about accessibility in gaming as a whole.
                         </p>
                     </div>
                 </div>

@@ -3,6 +3,10 @@ import mockup from "../images/ds3mock.png";
 import hud1 from "../images/ds3hud2.png";
 import hud2 from "../images/ds3hud.png";
 import {NavLink} from 'react-router-dom';
+import cognitive from "../images/cognitive.png";
+import auditory from "../images/auditory.png";
+import motor from "../images/motor.png";
+import visual from "../images/visual.png";
 
 const Solution = () => {
     
@@ -11,8 +15,40 @@ const Solution = () => {
             <div>
                 <h1 style={{color: "white",}}>The Solution</h1>
             </div>
-            <div className='s-flex-container'>
-                <div style={{display: "flex", flexDirection: "row"}}>
+            <div className='s-flex-container' style={{justifyContent: "space-between"}}>
+                {/* <div style={{dispaly: "flex", flexDirection: "row"}}> */}
+                    <div>
+                        <h3>Cognitive</h3>
+                        <img src={cognitive} alt="cognitive"></img>
+                    </div>
+                    <div>
+                            <h3>Motor</h3>
+                            <img src={motor} alt="motor"></img>
+                    </div>
+                    {/* <div style={{display: "flex", flexDirection: "row"}}>
+                        <div>
+                            <h3>Motor</h3>
+                            <img src={motor} alt="motor"></img>
+                        </div>
+                        <div style={{paddingTop: "100px", paddingLeft: "50px"}}>
+                            <ul>
+                                <li style={{color: "white"}}>Modify the controller</li>
+                                <li style={{color: "white"}}>Modify the game</li>
+                            </ul>
+                        </div>  
+                    </div> */}
+                {/* </div> */}
+                {/* <div style={{dispaly: "flex", flexDirection: "row"}}> */}
+                    <div>
+                        <h3>Auditory</h3>
+                        <img src={auditory} alt="auditory"></img>
+                    </div>
+                    <div>
+                        <h3>Visual</h3>
+                        <img src={visual} alt="visual"></img>
+                    </div>
+                {/* </div> */}
+                {/* <div style={{display: "flex", flexDirection: "row"}}>
                     <div>
                         <h2>Cognitive Solutions</h2>
                         <p style={{ color: "white"}}>
@@ -63,7 +99,7 @@ const Solution = () => {
                             </ul>
                         </p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         
