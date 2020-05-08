@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Navbar from "./navBar";
 import Home from "./Home";
 import "./layout.css";
-import Cognitive from "./Cognitive";
+import Cognitive from "./Cognitive.js";
 import Motor from "./Motor.js";
 import Visual from "./Visual.js";
 import Auditory from "./Auditory.js";
