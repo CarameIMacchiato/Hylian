@@ -5,6 +5,20 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+.skewed-right {
+  position: absolute;
+  /* top: 1000;
+  bottom: 0;
+  right: 0;
+  left: 0; */
+  padding: 300px;
+  width: 100vw;
+  height: 20vh;
+  background: #1C1F2D;
+  z-index: 0;
+  transform: skewY(3deg);
+  transform-origin: top right;
+}
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -378,7 +392,6 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  color: white;
 }
 figure {
   margin-left: 0;
@@ -673,8 +686,10 @@ pre tt:after {
 }
 
 #teamSection {
+  position: relative;
   padding-top: 2rem;
   background-color: #1C1F2D;
+  z-index: 1;
 }
 
 #teamSection p, h1, h2 {
