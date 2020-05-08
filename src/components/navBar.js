@@ -34,9 +34,9 @@ const Navbar = ({ siteTitle }) => (
             </a>
           </li>
           <li style={{listStyleType: "none"}}>
-            <NavLink to="/auditory" style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
+          <a onClick={() => scrollTo('#solutionSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
               Solution
-            </NavLink>
+            </a>
           </li>
           <li style={{listStyleType: "none"}}>
             <a onClick={() => scrollTo('#teamSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
