@@ -4,12 +4,6 @@ import { useStaticQuery, graphql } from "gatsby";
 import Navbar from "./navBar";
 import Home from "./Home";
 import "./layout.css";
-import Cognitive from "./Cognitive.js";
-import Motor from "./Motor.js";
-import Visual from "./Visual.js";
-import Auditory from "./Auditory.js";
-import {Switch, NavLink, Route} from 'react-router-dom';
-
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -33,13 +27,7 @@ const Layout = ({ children }) => {
         }}
       >
  
-        <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route exact path='/visual' component={Visual}/>
-          <Route exact path='/cognitive' component={Cognitive}/>
-          <Route exact path='/auditory' component={Auditory}/>
-          <Route exact path='/motor' component={Motor}/>
-        </Switch>
+        <Home></Home>
         
         <footer class="footer">
           Team Hylian | iSchool Capstone 2020, This project is a part of the <a href="https://ischool.uw.edu/capstone">Capstone Project</a> course at the University of Washington Information School

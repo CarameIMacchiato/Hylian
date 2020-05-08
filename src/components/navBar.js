@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import scrollTo from 'gatsby-plugin-smoothscroll';
-import {NavLink} from 'react-router-dom';
 import Logo from '../images/logosmall.png';
 
 const Navbar = ({ siteTitle }) => (
@@ -24,9 +23,9 @@ const Navbar = ({ siteTitle }) => (
     <div style={{display: `flex`, alignItems: 'center'}}>
         <ul>
           <li style={{listStyleType: "none"}}>
-            <NavLink to="/" style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
+            <a href="#" style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
               Home
-            </NavLink>
+            </a>
           </li>
           <li style={{listStyleType: "none"}}>
             <a onClick={() => scrollTo('#problemSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>

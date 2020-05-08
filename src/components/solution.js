@@ -24,9 +24,9 @@ const Solution = () => {
                                 <img src={cognitive} alt="cognitive"></img>
                                 <p>Alternative screen and game settings to address cognitive impairments.</p>
                                 <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
-                                    <NavLink to="/cognitive" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
+                                    <a href="#" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
                                         Learn More
-                                    </NavLink>
+                                    </a>
                                 </button>
                             </div>
                         </div>
@@ -36,9 +36,9 @@ const Solution = () => {
                                 <img src={motor} alt="motor"></img>
                                 <p>Resources to create modified controllers designed to help those with motor impairments.</p>
                                 <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
-                                    <NavLink to="/motor" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
+                                    <a href="#" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
                                         Learn More
-                                    </NavLink>
+                                    </a>
                                 </button>
                             </div>
                         </div>
@@ -48,9 +48,9 @@ const Solution = () => {
                                 <img src={auditory} alt="auditory"></img>
                                 <p>Create options for audio settings that accommodate those with hearing issues.</p>
                                 <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
-                                    <NavLink to="/auditory" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
+                                    <a href="#" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
                                         Learn More
-                                    </NavLink>
+                                    </a>
                                 </button>
                             </div>
                         </div>
@@ -60,9 +60,9 @@ const Solution = () => {
                                 <img src={visual} alt="visual"></img>
                                 <p> Optional changes in screen size, color contrast, and other visual settings.</p>
                                 <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
-                                    <NavLink to="/visual" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
+                                    <a href="#" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
                                         Learn More
-                                    </NavLink>
+                                    </a>
                                 </button>
                             </div>
                         </div>
