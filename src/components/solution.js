@@ -21,6 +21,11 @@ const Solution = () => {
                             <h3>Cognitive</h3>
                             <img src={cognitive} alt="cognitive"></img>
                             <p>Alternative screen and game settings to address cognitive impairments.</p>
+                            <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
+                                <NavLink to="/cognitive" style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
+                                    Learn More
+                                </NavLink>
+                            </button>
                         </div>
                     </div>
                     <div style={{display: "flex", flexDirection: "column", width: "25%", textAlign: "center", padding: "10px"}}>
@@ -28,6 +33,11 @@ const Solution = () => {
                             <h3>Motor</h3>
                             <img src={motor} alt="motor"></img>
                             <p>Resources to create modified controllers designed to help those with motor impairments.</p>
+                            <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
+                                <NavLink to="/motor" style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
+                                    Learn More
+                                </NavLink>
+                            </button>
                         </div>
                     </div>
                     <div style={{display: "flex", flexDirection: "column", width: "25%", textAlign: "center", padding: "10px"}}>
@@ -35,13 +45,23 @@ const Solution = () => {
                             <h3>Auditory</h3>
                             <img src={auditory} alt="auditory"></img>
                             <p>Create options for audio settings that accommodate those with hearing issues.</p>
+                            <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
+                                <NavLink to="/auditory" style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
+                                    Learn More
+                                </NavLink>
+                            </button>
                         </div>
                     </div>
                     <div  style={{display: "flex", flexDirection: "column", width: "25%", textAlign: "center", padding: "10px"}}>
                         <div>
                             <h3>Visual</h3>
                             <img src={visual} alt="visual"></img>
-                            <p> Optional changes in screen size, color contrast, and other visual settings for those with visual disabilities.</p>
+                            <p> Optional changes in screen size, color contrast, and other visual settings.</p>
+                            <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
+                                <NavLink to="/visual" style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
+                                    Learn More
+                                </NavLink>
+                            </button>
                         </div>
                     </div>
             </div>
