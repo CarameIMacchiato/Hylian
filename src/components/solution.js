@@ -38,7 +38,7 @@ const Solution = () => {
                         </div>  
                     </div> */}
                 {/* </div> */}
-                {/* <div style={{dispaly: "flex", flexDirection: "row"}}> */}
+                {/* <div style={{display: "flex", flexDirection: "row"}}> */}
                     <div>
                         <h3>Auditory</h3>
                         <img src={auditory} alt="auditory"></img>
