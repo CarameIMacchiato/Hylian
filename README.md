@@ -5,7 +5,7 @@ While many people play video games, it can be difficult for some of them to play
 
 ## Open Source Transition for Access
 
-By May 31, Access will be converted to an open source project that can be taken up by anyone to continue the research or use the research to create games or game modifications that are accessible.
-Any user collected data will be deleted, and the repository for the website will be made public. Current mod progress will also be made public.
-In the readme.md, we will create mod creation documentation for Dark Souls III. This will include the resources necessary, and links to basic tutorials.
+By May 31, Access will be converted to an open source project that can be taken up by anyone to continue the research or use the research to create games or game modifications that are accessible.  
+Any user collected data will be deleted, and the repository for the website will be made public. Current mod progress will also be made public.  
+We will create mod creation documentation for Dark Souls III. This will include the resources necessary, and links to basic tutorials.  
 If anyone wishes to continue the project, email here: [insert email] to request access to the repository and other research data. 
