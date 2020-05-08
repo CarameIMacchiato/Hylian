@@ -378,6 +378,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
+  color: white;
 }
 figure {
   margin-left: 0;
@@ -625,7 +626,7 @@ pre tt:after {
   flex-flow: row wrap;
   margin: auto;
   justify-content: center;
-  width: 75%;
+  width: 90%;
 }
 
 .s-flex-container > div {
