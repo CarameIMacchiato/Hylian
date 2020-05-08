@@ -8,7 +8,7 @@ const Intro = () => {
                 <div style={{display: 'flex', flex: '0 100%', justifyContent: 'center', verticalAlign: 'middle'}}>
                     <div style ={{width: '50%', textAlign: 'center'}}>
                         <h1 style={{color: 'white'}}>
-                            Play games that match your abilities.
+                            Games can be made more accessible
                         </h1>
                         <p style={{color: 'white', paddingTop: '30px'}}>
                             We are a team created at the University of Washington created to solve the issue of

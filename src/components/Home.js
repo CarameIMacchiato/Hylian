@@ -8,7 +8,7 @@ const Home = () => {
     
     return (
         <main>
-            <Intro ></Intro >
+            <Intro ></Intro>
             <Problem></Problem>
             <Solution></Solution>
             <Team></Team>
