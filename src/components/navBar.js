@@ -7,7 +7,7 @@ import Logo from '../images/logosmall.png';
 const Navbar = ({ siteTitle }) => (
   <header
     style={{
-      background: "rgba(28, 31, 45, .5)",
+      background: "rgb(28, 31, 45)",
       display: "flex",
       position: "fixed",
       width: "100%",
@@ -18,12 +18,12 @@ const Navbar = ({ siteTitle }) => (
     }}>
 
     <div style={{marginLeft: "1rem"}}>
-        <img src={Logo} onClick={() => scrollTo('#home')} style={{cursor: "pointer", maxWidth: '100%', height: 'auto'}} />
+        <img src={Logo} style={{cursor: "pointer", maxWidth: '100%', height: 'auto'}} />
     </div>
     <div style={{display: `flex`, alignItems: 'center'}}>
         <ul>
           <li style={{listStyleType: "none"}}>
-            <a href="#" style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
+            <a href="/" style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
               Home
             </a>
           </li>
