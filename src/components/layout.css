@@ -30,8 +30,8 @@ html {
   height: 20vh;
   background: white;
   z-index: 0;
-  transform: skewY(3deg);
-  transform-origin: top right;
+  transform: skewY(357deg);
+  transform-origin: top left;
 }
 body {
   margin: 0;
@@ -772,7 +772,7 @@ header li {
 }
 
 button {
-  background-color: rgb(219, 139, 34);
+  background-color: #E2574C;
   cursor: pointer;
   border: none;
   color: white;

@@ -14,7 +14,8 @@ const Navbar = ({ siteTitle }) => (
       height: "70px",
       verticalAlign: "middle",
       justifyContent: "space-between",
-      alignItems: 'center'
+      alignItems: 'center',
+      zIndex: 3,
     }}>
 
     <div style={{marginLeft: "1rem"}}>
