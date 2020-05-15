@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from '../components/navBar';
-import { useStaticQuery, graphql } from "gatsby";
+import tutorial from "../images/tutorial.png";
+import context from "../images/context.png"
 
 const cognitive = () => {
 
@@ -8,12 +9,21 @@ const cognitive = () => {
     return (
         <div>
             <Navbar/>
+
+            <div className='mini-nav'>
+                <ul>
+                    <li><a href='/cognitive'>Cognitive</a></li>
+                    <li><a href='/auditory'>Auditory</a></li>
+                    <li><a href='/visual'>Visual</a></li>
+                    <li><a href='/motor'>Motor</a></li>
+                </ul>
+            </div>
             
-            <div style={{paddingTop: '200px', backgroundColor: "#020A0F", textAlign: 'center'}}>
-                <div style={{width: "50%", margin: "0 auto"}}>
-                    <div style={{flex: "0 100%", textAlign: 'center'}}>
-                        <h2 style={{color: "white"}}>Current Solutions to Cognitive Problems</h2>
-                        <p style={{color: "white", paddingTop: '10px'}}>
+            <div style={{paddingTop: '200px', textAlign: 'left'}}>
+                <div style={{width: "40%", margin: "0 auto", display: "flex", flexFlow: "row wrap"}}>
+                    <div style={{flex: "0 100%"}}>
+                        <h2 style={{color: "black", textAlign: 'center'}}>Current Solutions to Cognitive Problems</h2>
+                        <p style={{marginTop: '10px', marginBottom: '50px'}}>
                            Solutions to cognitive issues involve adding elements to the game that will 
                            help remind the player of what they need to do and also allow the player to 
                            modify elements of the game as they see fit. Many games provide solutions 
@@ -22,34 +32,39 @@ const cognitive = () => {
                         </p>
                     </div>
                     <div style={{flex: "0 100%", textAlign: 'center'}}>
-                        <h2 style={{color: "white"}}>Examples</h2>
-                        <p style={{color: "white", paddingTop: '10px'}}>
-                           Tutorial options 
+                        <h2 style={{color: "black"}}>Examples</h2>
+                        <p style={{paddingTop: '10px', textAlign: 'left'}}>
+                           Tutorials, and being able to toggle them
                         </p>
-                        <p>
-                            image here
+                        <img src={tutorial} alt={'menu with an option to toggle tutorials'}/>
+                        <p style={{marginBottom: "50px", fontSize: '16px', textAlign: 'center'}}>
+                            The Witcher 3’s menu screen, which has a tutorial toggle, 
+                            along with other accessible options
                         </p>
-                        <p style={{color: "white", paddingTop: '10px'}}>
+
+                        <p style={{paddingTop: '10px', textAlign: 'left'}}>
                             Contextual in-game tips, tell players what to do in multiple places 
                             (through text in a menu and from characters in-game).
                         </p>
-                        <p>
-                            image here
+                        <img src={context} alt={'two images showing tracks, left one is highlighted, right one is not highlighted'}/>
+                        <p style={{marginBottom: "50px", fontSize: '16px', textAlign: 'center'}}>
+                            The Witcher 3 has a feature that highlights important 
+                            game elements as hints to the player
                         </p>
                     </div>
-                    <div style={{flex: "0 100%", textAlign: 'center'}}>
-                        <h2 style={{color: "white"}}>Proposed Solutions</h2>
-                        <h3 style={{color: "white"}}>Slow-motion for games with action intense sequences</h3>
+                    <div style={{flex: "0 100%"}}>
+                        <h2 style={{color: "black", textAlign: 'center'}}>Proposed Solutions</h2>
+                        <h3 style={{color: "black", textAlign: 'center'}}>Slow-motion for games with action intense sequences</h3>
                         <p>
                             image and text here
                         </p>
-                        <p style={{color: "white", paddingTop: '10px'}}>
+                        <p style={{paddingTop: '10px'}}>
                             Action intensive games or sequences (such as Quick time Events) can be difficult 
                             for people with cognitive-related conditions. A way for game developers to help 
                             with that problem is to add an option for intense sequences to be slowed down, 
                             or even skipped altogether.
                         </p>
-                        <p style={{color: "white"}}>
+                        <p>
                             Code here
                         </p>
                     </div>
