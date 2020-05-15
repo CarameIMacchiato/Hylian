@@ -54,16 +54,31 @@ const cognitive = () => {
                     </div>
                     <div style={{flex: "0 100%"}}>
                         <h2 style={{color: "black", textAlign: 'center'}}>Proposed Solutions</h2>
-                        <h3 style={{color: "black", textAlign: 'center'}}>Slow-motion for games with action intense sequences</h3>
-                        <p>
-                            image and text here
-                        </p>
-                        <p style={{paddingTop: '10px'}}>
-                            Action intensive games or sequences (such as Quick time Events) can be difficult 
+                        <h3 style={{color: "black", textAlign: 'center', paddingTop: '30px'}}>Slow-motion for games with action intense sequences</h3>
+                        <p style={{paddingTop: '20px'}}>
+                            Action intensive games or sequences, such as quick time events, can be difficult 
                             for people with cognitive-related conditions. A way for game developers to help 
-                            with that problem is to add an option for intense sequences to be slowed down, 
-                            or even skipped altogether.
+                            with that problem:
+                            <ul className='solution-list'>
+                                <li>Slow down the content</li>
+                                <li>Have an option to skip the content</li>
+                                <li>Don't make the content rely on dexterity</li>
+                            </ul>
                         </p>
+                        <div>
+                            <div style={{position:'relative', paddingBottom:'calc(56.25% + 44px)'}}>
+                                <iframe src='https://gfycat.com/ifr/GreedyIdenticalBlackrussianterrier' frameborder='0' scrolling='no' width='100%' height='100%' style={{position:'absolute', top: '0', left:'0'}} allowfullscreen></iframe>
+                            </div>
+                            <p>
+                                Regular speed
+                            </p>
+                            <div style={{position:'relative', paddingBottom:'calc(56.25% + 44px)'}}>
+                                <iframe src='https://gfycat.com/ifr/FineHighlevelHectorsdolphin' frameborder='0' scrolling='no' width='100%' height='100%' style={{position:'absolute', top: '0', left:'0'}} allowfullscreen></iframe>
+                            </div>
+                            <p>
+                                Slowed down 
+                            </p>
+                        </div>
                         <p>
                             Code here
                         </p>

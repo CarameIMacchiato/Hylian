@@ -406,6 +406,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
+  line-height: 30px;
 }
 figure {
   margin-left: 0;
@@ -798,7 +799,7 @@ button:hover {
   text-align: center;
   border-radius: 5px;
   padding: 20px 30px;
-  margin-top: 39rem;
+  margin-top: 20rem;
   z-index: 10;
   left: 2%;
 }
@@ -815,4 +816,15 @@ button:hover {
 .mini-nav ul{
   text-decoration: none;
   list-style-type: none;
+}
+
+.solution-list {
+  font-size: 22px;
+  font-weight: 400;
+  padding: 10px 0;
+  list-style-type: none;
+}
+
+.solution-list li {
+  padding: 10px 0;
 }
