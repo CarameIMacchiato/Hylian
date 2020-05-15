@@ -107,6 +107,7 @@ sup {
   line-height: 0;
   position: relative;
   vertical-align: baseline;
+  color: #000;
 }
 sub {
   bottom: -0.25em;
@@ -818,13 +819,13 @@ button:hover {
   list-style-type: none;
 }
 
-.solution-list {
-  font-size: 22px;
-  font-weight: 400;
-  padding: 10px 0;
-  list-style-type: none;
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
 }
 
-.solution-list li {
-  padding: 10px 0;
+.source-list li{
+  padding: 15px 0px;
 }
