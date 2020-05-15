@@ -20,7 +20,7 @@ const Solution = () => {
                                 <h3>Cognitive</h3>
                                 <img src={cognitive} alt="cognitive"></img>
                                 <p>Alternative screen and game settings to address cognitive impairments.</p>
-                                <Link to="/cognitive" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
+                                <Link to="cognitive" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
                                     <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
                                         Learn More
                                     </button>
@@ -32,7 +32,7 @@ const Solution = () => {
                                 <h3>Motor</h3>
                                 <img src={motor} alt="motor"></img>
                                 <p>Resources to create modified controllers designed to help those with motor impairments.</p>
-                                <Link to="/motor" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
+                                <Link to="motor" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
                                     <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
                                         Learn More
                                     </button>
@@ -44,7 +44,7 @@ const Solution = () => {
                                 <h3>Auditory</h3>
                                 <img src={auditory} alt="auditory"></img>
                                 <p>Create options for audio settings that accommodate those with hearing issues.</p>
-                                <Link to="/auditory" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
+                                <Link to="auditory" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
                                     <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
                                         Learn More
                                     </button>
@@ -56,7 +56,7 @@ const Solution = () => {
                                 <h3>Visual</h3>
                                 <img src={visual} alt="visual"></img>
                                 <p> Optional changes in screen size, color contrast, and other visual settings.</p>
-                                <Link to="/visual" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
+                                <Link to="visual" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
                                     <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
                                         Learn More
                                     </button>
