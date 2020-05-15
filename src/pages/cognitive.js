@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from '../components/navBar';
 import tutorial from "../images/tutorial.png";
 import context from "../images/context.png"
+import {Link} from 'gatsby';
 
 const cognitive = () => {
 
@@ -12,10 +13,10 @@ const cognitive = () => {
 
             <div className='mini-nav'>
                 <ul>
-                    <li><a href='/cognitive'>Cognitive</a></li>
-                    <li><a href='/auditory'>Auditory</a></li>
-                    <li><a href='/visual'>Visual</a></li>
-                    <li><a href='/motor'>Motor</a></li>
+                    <li><Link to='/cognitive'>Cognitive</Link></li>
+                    <li><Link to='/motor'>Motor</Link></li>
+                    <li><Link to='/auditory'>Auditory</Link></li>
+                    <li><Link to='/visual'>Visual</Link></li>
                 </ul>
             </div>
             
