@@ -23,7 +23,7 @@ const cognitive = () => {
             </div>
             
             <div style={{paddingTop: '200px', textAlign: 'left'}}>
-                <div style={{width: "40%", margin: "0 auto", display: "flex", flexFlow: "row wrap"}}>
+                <div style={{width: "50%", margin: "0 auto", display: "flex", flexFlow: "row wrap"}}>
                     <div style={{flex: "0 100%"}}>
                         <h2 style={{color: "black", textAlign: 'center'}}>Current Solutions to Cognitive Problems</h2>
                         <p style={{marginTop: '10px', marginBottom: '50px'}}>
