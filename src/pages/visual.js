@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from '../components/navBar';
+import {Link} from 'gatsby';
 
 
 const visual = () => {
@@ -7,6 +8,15 @@ const visual = () => {
     return (
         <div>
             <Navbar/> 
+
+            <div className='mini-nav'>
+                <ul>
+                    <li><Link to='cognitive'>Cognitive</Link></li>
+                    <li><Link to='motor'>Motor</Link></li>
+                    <li><Link to='auditory'>Auditory</Link></li>
+                    <li><Link to='visual'>Visual</Link></li>
+                </ul>
+            </div>
             
             <div style={{paddingTop: '200px', backgroundColor: "#020A0F", textAlign: 'center'}}>
                 <div style={{width: "50%", margin: "0 auto"}}>

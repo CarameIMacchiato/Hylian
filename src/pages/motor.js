@@ -1,7 +1,11 @@
 import React from "react";
 import Navbar from '../components/navBar';
+<<<<<<< HEAD
 import AdavptiveController from '../images/adaptiveController.jpg';
 import quadstick from '../images/quadstick.png'
+=======
+import {Link} from 'gatsby';
+>>>>>>> 3a1104f8da3ff3dea55abbe44002f0bd58feeb69
 
 
 const motor = () => {
@@ -9,6 +13,15 @@ const motor = () => {
     return (
         <div>
             <Navbar/> 
+
+            <div className='mini-nav'>
+                <ul>
+                    <li><Link to='cognitive'>Cognitive</Link></li>
+                    <li><Link to='motor'>Motor</Link></li>
+                    <li><Link to='auditory'>Auditory</Link></li>
+                    <li><Link to='visual'>Visual</Link></li>
+                </ul>
+            </div>
             
             <div className='mini-nav'>
                 <ul>
