@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from '../components/navBar';
 import tutorial from "../images/tutorial.png";
 import context from "../images/context.png"
+import difficulty from "../images/difficulty.png"
+import glow from "../images/glow.png"
 import {Link} from 'gatsby';
 
 const cognitive = () => {
@@ -115,14 +117,15 @@ const cognitive = () => {
                             </p>
                         </div>
 
-                        <div style={{marginBottom: '50px'}}>
-                            <h3 style={{color: "black", textAlign: 'center', paddingTop: '30px'}}>Difficulty ranges for games</h3>
-                            <p style={{paddingTop: '20px'}}>
+                        <div style={{marginBottom: '50px', textAlign: 'center'}}>
+                            <h3 style={{color: "black", paddingTop: '30px'}}>Difficulty ranges for games</h3>
+                            <img src={difficulty} style={{width: '50%', height: '50%'}} alt={'menu showing expert difficulty'}/>
+                            <p style={{paddingTop: '20px', textAlign: 'left'}}>
                                 While many modern games come with scaling difficulty or difficulty modes, some games do not offer
                                 the choice to players. 
                             </p>
-                            <h4>How To Implement</h4>
-                            <p>
+                            <h4 style={{textAlign: 'left'}}>How To Implement</h4>
+                            <p style={{textAlign: 'left'}}>
                                 Any coding solution for this problem would require these changes:
                                 <ol className="source-list">
                                     <li>Lower requirements for player success (points needed to pass level)</li>
@@ -132,9 +135,10 @@ const cognitive = () => {
                             </p>
                         </div>
 
-                        <div style={{marginBottom: '50px'}}>
-                            <h3 style={{color: "black", textAlign: 'center', paddingTop: '30px'}}>More obvious interactable items</h3>
-                            <p style={{paddingTop: '20px'}}>
+                        <div style={{marginBottom: '50px', textAlign: 'center'}}>
+                            <h3 style={{color: "black", paddingTop: '30px'}}>More obvious interactable items</h3>
+                            <img src={glow} alt={'a book is glowing because it is unread'}/>
+                            <p style={{paddingTop: '20px', textAlign: 'left'}}>
                                 Some game items can be difficult to see, especially if they are placed in a chaotic scene. Some solutions to fix this
                                 would be:
                                 <ol className="source-list">
@@ -142,12 +146,12 @@ const cognitive = () => {
                                     <li>Add more visual effects to the item<sub>1</sub></li>
                                 </ol>
                             </p>
-                            <h4>How To Implement</h4>
-                            <p>
+                            <h4 style={{textAlign: 'left'}}>How To Implement</h4>
+                            <p style={{textAlign: 'left'}}>
                                 There are various plugins and particle effects for game engines thatc an be applied to 
                                 game objects.
                             </p>
-                            <a href="https://www.youtube.com/watch?v=UHCwUMJOFsc">Tutorial for sparkles in Unity</a>
+                            <a href="https://www.youtube.com/watch?v=UHCwUMJOFsc" style={{textAlign: 'left'}}>Tutorial for how to make sparkles in Unity</a>
                         </div>
                     </div>
 
