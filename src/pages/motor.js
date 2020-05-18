@@ -1,11 +1,8 @@
 import React from "react";
 import Navbar from '../components/navBar';
-<<<<<<< HEAD
 import AdavptiveController from '../images/adaptiveController.jpg';
 import quadstick from '../images/quadstick.png'
-=======
 import {Link} from 'gatsby';
->>>>>>> 3a1104f8da3ff3dea55abbe44002f0bd58feeb69
 
 
 const motor = () => {
