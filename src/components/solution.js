@@ -14,17 +14,17 @@ const Solution = () => {
                 <div>
                     <h1 style={{color: "black",}}>The Solution</h1>
                 </div>
-                <div className='s-flex-container' style={{justifyContent: "space-between", flexDirection: "row"}}>
+                <div className='s-flex-container' style={{justifyContent: "space-between", flexDirection: "row", verticalAlign: 'center'}}>
                         <div style={{display: "flex", flexDirection: "column", width: "25%", textAlign: "center", padding: "10px"}}>
                             <div>
                                 <h3>Cognitive</h3>
                                 <img src={cognitive} alt="cognitive"></img>
                                 <p>Alternative screen and game settings to address cognitive impairments.</p>
-                                <Link to="cognitive" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
+                                <a href="/Hylian/cognitive" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
                                     <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
                                         Learn More
                                     </button>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div style={{display: "flex", flexDirection: "column", width: "25%", textAlign: "center", padding: "10px"}}>
