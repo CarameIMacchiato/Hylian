@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from '../components/navBar';
 import {Link} from 'gatsby';
+import "../components/layout.css";
 
 const auditory = () => {
     

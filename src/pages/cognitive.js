@@ -5,6 +5,7 @@ import context from "../images/context.png"
 import difficulty from "../images/difficulty.png"
 import glow from "../images/glow.png"
 import {Link} from 'gatsby';
+import "../components/layout.css";
 
 const cognitive = () => {
 

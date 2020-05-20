@@ -3,6 +3,7 @@ import Navbar from '../components/navBar';
 import AdavptiveController from '../images/adaptiveController.jpg';
 import quadstick from '../images/quadstick.png'
 import {Link} from 'gatsby';
+import "../components/layout.css";
 
 
 const motor = () => {
