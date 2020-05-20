@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from '../components/navBar';
-import {Link} from 'gatsby';
+import "../components/layout.css";
 
 const auditory = () => {
     
@@ -10,10 +10,10 @@ const auditory = () => {
 
             <div className='mini-nav'>
                 <ul>
-                    <li><Link to='cognitive'>Cognitive</Link></li>
-                    <li><Link to='motor'>Motor</Link></li>
-                    <li><Link to='auditory'>Auditory</Link></li>
-                    <li><Link to='visual'>Visual</Link></li>
+                    <li><a href='/Hylian/cognitive'>Cognitive</a></li>
+                    <li><a href='/Hylian/motor'>Motor</a></li>
+                    <li><a href='/Hylian/auditory'>Auditory</a></li>
+                    <li><a href='/Hylian/visual'>Visual</a></li>
                 </ul>
             </div>
             
@@ -25,7 +25,7 @@ const auditory = () => {
                 </div>
             </div>
 
-            <footer class="footer">
+            <footer className="footer">
                 Team Hylian | iSchool Capstone 2020, This project is a part of the <a href="https://ischool.uw.edu/capstone">Capstone Project</a> course at the University of Washington Information School
                 <p>We are going open source on May 31st! For inquiries contact us at <a href="emailto:kaw29@uw.edu" >kaw29@uw.edu</a></p> 
             </footer>
