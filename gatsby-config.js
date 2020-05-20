@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/Hylian",
   siteMetadata: {
     title: `Access`,
     description: `Page for capstone project Access about accessibility in video games`,
