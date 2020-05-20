@@ -19,12 +19,12 @@ const Navbar = ({ siteTitle }) => (
     }}>
 
     <div style={{marginLeft: "1rem"}}>
-        <img src={Logo} style={{cursor: "pointer", maxWidth: '100%', height: 'auto'}} />
+        <img href="/Hylian" src={Logo} style={{cursor: "pointer", maxWidth: '100%', height: 'auto'}} />
     </div>
     <div style={{display: `flex`, alignItems: 'center'}}>
         <ul>
           <li style={{listStyleType: "none"}}>
-            <a href="/" style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
+            <a href="/Hylian" style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
               Home
             </a>
           </li>

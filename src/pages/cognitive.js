@@ -8,12 +8,9 @@ import {Link} from 'gatsby';
 import "../components/layout.css";
 
 const cognitive = () => {
-
-
     return (
         <div>
             <Navbar/>
-
             <div className='mini-nav'>
                 <ul>
                     <li><Link to='cognitive'>Cognitive</Link></li>

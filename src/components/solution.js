@@ -32,11 +32,11 @@ const Solution = () => {
                                 <h3>Motor</h3>
                                 <img src={motor} alt="motor"></img>
                                 <p>Resources to create modified controllers designed to help those with motor impairments.</p>
-                                <Link to="motor" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
+                                <a href="/Hylian/motor" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
                                     <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
                                         Learn More
                                     </button>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div style={{display: "flex", flexDirection: "column", width: "25%", textAlign: "center", padding: "10px"}}>
@@ -44,11 +44,11 @@ const Solution = () => {
                                 <h3>Auditory</h3>
                                 <img src={auditory} alt="auditory"></img>
                                 <p>Create options for audio settings that accommodate those with hearing issues.</p>
-                                <Link to="auditory" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
+                                <a href="/Hylian/auditory" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
                                     <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
                                         Learn More
                                     </button>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div  style={{display: "flex", flexDirection: "column", width: "25%", textAlign: "center", padding: "10px"}}>
@@ -56,11 +56,11 @@ const Solution = () => {
                                 <h3>Visual</h3>
                                 <img src={visual} alt="visual"></img>
                                 <p> Optional changes in screen size, color contrast, and other visual settings.</p>
-                                <Link to="visual" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
+                                <a href="Hylian/visual" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
                                     <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
                                         Learn More
                                     </button>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                 </div>
