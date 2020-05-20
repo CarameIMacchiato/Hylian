@@ -10,13 +10,13 @@ const Team = () => {
     
     return (
         <div>
-            <div class="skewed-right"></div>
+            <div className="skewed-right"></div>
             <div id="teamSection">
                 <div>
                     <h1 style={{textAlign: "center"}}>The Team</h1>
                 </div>
-                <div class="flex-container">
-                    <div class="flex-item">
+                <div className="flex-container">
+                    <div className="flex-item">
                         <div>
                             <img style={{width: '200px', height: '200px'}} src={PritiImg} alt='priti'/>
                             <h2>Priti Patel</h2>
@@ -29,7 +29,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="flex-item">
+                    <div className="flex-item">
                         <div>
                             <img style={{width: '200px', height: '200px'}} src={AlexImg} alt='alex'/>
                             <h2>Alex Wong</h2>
@@ -40,7 +40,7 @@ const Team = () => {
                             <p>Email: <a href="emailto:alwong34@uw.edu" >alwong34@uw.edu</a></p>
                         </div>
                     </div>
-                    <div class="flex-item">
+                    <div className="flex-item">
                         <div>
                             <img style={{width: '200px', height: '200px'}} src={KileyImg} alt='kiley'/>
                             <h2>Kiley Wong</h2>
@@ -51,7 +51,7 @@ const Team = () => {
                             <p>Email: <a href="emailto:kaw29@uw.edu" >kaw29@uw.edu</a></p>
                         </div>
                     </div>
-                    <div class="flex-item">
+                    <div className="flex-item">
                         <div>
                             <img style={{width: '200px', height: '200px'}} src={CarmImg} alt='carmelito'/>
                             <h2>Carmelito Gutierrez</h2>

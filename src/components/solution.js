@@ -9,7 +9,7 @@ const Solution = () => {
     
     return (
         <div>
-            <div class="skewed-left"></div>
+            <div className="skewed-left"></div>
             <div id="solutionSection" style={{width: "100%", backgroundColor: "white", paddingTop: "3rem", paddingBottom: "4rem"}}>
                 <div>
                     <h1 style={{color: "black",}}>The Solution</h1>
