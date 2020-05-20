@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from '../components/navBar';
 import AdavptiveController from '../images/adaptiveController.jpg';
 import quadstick from '../images/quadstick.png'
-import {Link} from 'gatsby';
 import "../components/layout.css";
 
 
@@ -14,19 +13,10 @@ const motor = () => {
 
             <div className='mini-nav'>
                 <ul>
-                    <li><Link to='cognitive'>Cognitive</Link></li>
-                    <li><Link to='motor'>Motor</Link></li>
-                    <li><Link to='auditory'>Auditory</Link></li>
-                    <li><Link to='visual'>Visual</Link></li>
-                </ul>
-            </div>
-            
-            <div className='mini-nav'>
-                <ul>
-                    <li><a href='/cognitive'>Cognitive</a></li>
-                    <li><a href='/motor'>Motor</a></li>
-                    <li><a href='/auditory'>Auditory</a></li>
-                    <li><a href='/visual'>Visual</a></li>
+                    <li><a href='/Hylian/cognitive'>Cognitive</a></li>
+                    <li><a href='/Hylian/motor'>Motor</a></li>
+                    <li><a href='/Hylian/auditory'>Auditory</a></li>
+                    <li><a href='/Hylian/visual'>Visual</a></li>
                 </ul>
             </div>
 

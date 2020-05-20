@@ -19,7 +19,7 @@ const Navbar = ({ siteTitle }) => (
     }}>
 
     <div style={{marginLeft: "1rem"}}>
-        <img href="/Hylian" src={Logo} style={{cursor: "pointer", maxWidth: '100%', height: 'auto'}} />
+        <a href="/Hylian"><img src={Logo} style={{cursor: "pointer", maxWidth: '100%', height: 'auto'}} /></a>
     </div>
     <div style={{display: `flex`, alignItems: 'center'}}>
         <ul>

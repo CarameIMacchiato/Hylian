@@ -4,19 +4,19 @@ import tutorial from "../images/tutorial.png";
 import context from "../images/context.png"
 import difficulty from "../images/difficulty.png"
 import glow from "../images/glow.png"
-import {Link} from 'gatsby';
 import "../components/layout.css";
 
 const cognitive = () => {
     return (
         <div>
             <Navbar/>
+            
             <div className='mini-nav'>
                 <ul>
-                    <li><Link to='cognitive'>Cognitive</Link></li>
-                    <li><Link to='motor'>Motor</Link></li>
-                    <li><Link to='auditory'>Auditory</Link></li>
-                    <li><Link to='visual'>Visual</Link></li>
+                    <li><a href='/Hylian/cognitive'>Cognitive</a></li>
+                    <li><a href='/Hylian/motor'>Motor</a></li>
+                    <li><a href='/Hylian/auditory'>Auditory</a></li>
+                    <li><a href='/Hylian/visual'>Visual</a></li>
                 </ul>
             </div>
             

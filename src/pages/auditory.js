@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from '../components/navBar';
-import {Link} from 'gatsby';
 import "../components/layout.css";
 
 const auditory = () => {
@@ -11,10 +10,10 @@ const auditory = () => {
 
             <div className='mini-nav'>
                 <ul>
-                    <li><Link to='cognitive'>Cognitive</Link></li>
-                    <li><Link to='motor'>Motor</Link></li>
-                    <li><Link to='auditory'>Auditory</Link></li>
-                    <li><Link to='visual'>Visual</Link></li>
+                    <li><a href='/Hylian/cognitive'>Cognitive</a></li>
+                    <li><a href='/Hylian/motor'>Motor</a></li>
+                    <li><a href='/Hylian/auditory'>Auditory</a></li>
+                    <li><a href='/Hylian/visual'>Visual</a></li>
                 </ul>
             </div>
             
