@@ -20,7 +20,7 @@ const Solution = () => {
                                 <h3>Cognitive</h3>
                                 <img src={cognitive} alt="cognitive"></img>
                                 <p>Alternative screen and game settings to address cognitive impairments.</p>
-                                <a href="/Hylian/cognitive" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
+                                <a href="/Hylian/cognitivep" style={{color: 'black', textDecoration: `none`, cursor: "pointer"}}>
                                     <button style={{width: "120px", height: "50px", fontSize: "12pt"}}>
                                         Learn More
                                     </button>

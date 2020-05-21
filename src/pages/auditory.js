@@ -10,7 +10,7 @@ const auditory = () => {
 
             <div className='mini-nav'>
                 <ul>
-                    <li><a href='/Hylian/cognitive'>Cognitive</a></li>
+                    <li><a href='/Hylian/cognitivep'>Cognitive</a></li>
                     <li><a href='/Hylian/motor'>Motor</a></li>
                     <li><a href='/Hylian/auditory'>Auditory</a></li>
                     <li><a href='/Hylian/visual'>Visual</a></li>
