@@ -1,14 +1,11 @@
 import React from "react";
 import Navbar from '../components/navBar';
 import "../components/layout.css";
-<<<<<<< HEAD
 import questhint from '../images/questhintmarker.png'
 import gong from '../images/gong.mp4'
 import glow from '../images/promGlow.png'
-=======
-import madden from "../images/madden.png"
-import cod from "../images/cod.png"
->>>>>>> bd7ce66d312befbbef7bcff3ef3b861dc8655629
+import madden from '../images/madden.png'
+import cod from '../images/cod.png'
 
 const visual = () => {
     
