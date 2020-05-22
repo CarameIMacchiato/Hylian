@@ -31,7 +31,7 @@ const Navbar = ({ siteTitle }) => (
             </a>
           </li>
           <li style={{listStyleType: "none"}}>
-            <a onClick={() => scrollTo('#problemSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
+            <a href='Hylian#problemSection' style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
               Problem
             </a>
           </li>
@@ -41,7 +41,7 @@ const Navbar = ({ siteTitle }) => (
             </a>
           </li>
           <li style={{listStyleType: "none"}}>
-            <a onClick={() => scrollTo('#teamSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
+            <a href='Hylian#teamSection' style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
               Team
             </a>
           </li>
