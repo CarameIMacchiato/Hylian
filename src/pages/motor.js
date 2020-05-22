@@ -58,7 +58,7 @@ const motor = () => {
                         <h2 style={{color: "black", textAlign: 'center'}}>Proposed Solutions</h2>
                         <div>
                             <h3 style={{color: "black", textAlign: 'center', paddingTop: '30px'}}>Customizable Controls</h3>
-                            <p style={{paddingTop: '10px'}}>
+                            <p style={{paddingTop: '10px', textAlign: 'left'}}>
                                 Although default controls can try to specify how designers want their audience to play a game, not all 
                                 users are capable or are comfortable with a  predefined set of controls. One way to help games be more 
                                 accessible is to allow customization of controls and remapping of buttons.
