@@ -84,7 +84,11 @@ const auditory = () => {
                         <h4 style={{textAlign: 'left'}}>How to Implement</h4>
                         <p>This is a Unity lesson on Sound Effects and Scripting:</p>
                         <a href='https://learn.unity.com/tutorial/sound-effects-scripting#'>Tutorial</a>
-                        <p>PseudoCode</p>
+                        <div>
+                            <iframe src='https://codepen.io/kaw2/embed/KKdJxLZ?default-tab=js' style={{height: '300px', width: '70%'}}></iframe>
+                        </div>
+                        <h4>Additional Resources:</h4>
+                        <a href='https://gamedevelopment.tutsplus.com/tutorials/game-audio-simplified--cms-19731'>Simple Sound Tutorial</a>
                         <h3 style={{paddingTop: '10px', textAlign: 'left', color: 'black'}}>Additional Text and Indicators</h3>
                               
                         <p style={{textAlign: 'left'}}>
