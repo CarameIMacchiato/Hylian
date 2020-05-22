@@ -24,7 +24,7 @@ const motor = () => {
                 <div style={{width: "50%", margin: "0 auto"}}>
                     <div style={{flex: "0 100%"}}>
                         <h2 style={{color: "black", textAlign: 'center'}}>Current Solutions to Motor Problems</h2>
-                        <p style={{marginTop: '10px', marginBottom: '50px'}}>
+                        <p style={{marginTop: '10px', marginBottom: '50px', textAlign: 'left'}}>
                            Solutions to motor problems mainly involve creating physical devices and controllers that 
                            have special capabilities or modifications. These physical devices work to simplify controllers
                            for those who have difficulties with normal controllers. Other solutions work to slow down the 
@@ -38,7 +38,7 @@ const motor = () => {
                             Microsoft's Adaptive Controller
                         </h4>
                         <img src={AdavptiveController} alt={'menu with an option to toggle tutorials'}/>
-                        <p style={{marginBottom: "50px", fontSize: '16px', textAlign: 'center'}}>
+                        <p style={{marginBottom: "50px", fontSize: '16px', textAlign: 'left'}}>
                             Microsoft has created has created a controller designed for those with limited mobilit. It supports 
                             a range of different inputs in order to customize the device and create the optimal gaming experience
                             for its users.
@@ -49,7 +49,7 @@ const motor = () => {
                             Quadstick FPS Game Controller
                         </h4>
                         <img src={quadstick} alt={'menu with an option to toggle tutorials'}/>
-                        <p style={{marginBottom: "50px", fontSize: '16px', textAlign: 'center'}}>
+                        <p style={{marginBottom: "50px", fontSize: '16px', textAlign: 'left'}}>
                            A mouth operated joystick with multiple sip and puff sensors, a lip position sensor, and a push switch,
                            connected to a 32 bit ARM processor that converts sensor inputs into USB and Bluetooth signals.
                         </p> 
@@ -67,14 +67,14 @@ const motor = () => {
                                 <iframe src='https://gfycat.com/ifr/PresentRawCrustacean' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe>
                             </div>
                             <h4 style={{textAlign: 'left'}}>How To Implement</h4>
-                            <p style={{textAlign: 'left'}}>
+                            <p style={{textAlign: 'left', textAlignLast: 'left'}}>
                                 When creating the controls for a game, it is necesssary to create a menu where players can remap and alter the game inputs.
                                 Ideally this would be a section in the settings menu in every game, giving players control options and customizability.
                             </p>
                         </div>
                         <div>
                         <h3 style={{color: "black", textAlign: 'center', paddingTop: '30px'}}>Variable Aim Assist</h3>
-                            <p style={{paddingTop: '10px'}}>
+                            <p style={{paddingTop: '10px', textAlign: 'left'}}>
                                 While aim assist is considered cheating in multiplayer player vs. player games, it can be a strong accessibility tool in
                                 single player or co-op first person shooter games. It helps simplify game combat by locking on to enemies and tracking their
                                 movement. This can lower the reaction time needed to defeat enemies and decrease difficulty considerably.
