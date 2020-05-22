@@ -5,6 +5,8 @@ import scrollTo from 'gatsby-plugin-smoothscroll';
 import Logo from '../images/logosmall.png';
 
 const Navbar = ({ siteTitle }) => (
+  
+  
   <header
     style={{
       background: "rgb(28, 31, 45)",
@@ -34,7 +36,7 @@ const Navbar = ({ siteTitle }) => (
             </a>
           </li>
           <li style={{listStyleType: "none"}}>
-          <a onClick={() => scrollTo('#solutionSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
+          <a onClick={() => scrollTo('Hylian#solutionSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
               Solution
             </a>
           </li>
