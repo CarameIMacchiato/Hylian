@@ -36,7 +36,7 @@ const Navbar = ({ siteTitle }) => (
             </a>
           </li>
           <li style={{listStyleType: "none"}}>
-          <a onClick={() => scrollTo('Hylian#solutionSection')} style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
+          <a href='Hylian#solutionSection' style={{color: 'white', textDecoration: `none`, cursor: "pointer"}}>
               Solution
             </a>
           </li>
