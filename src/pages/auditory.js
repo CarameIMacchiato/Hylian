@@ -17,7 +17,7 @@ const auditory = () => {
                 </ul>
             </div>
             
-            <div style={{paddingTop: '200px', backgroundColor: "#020A0F", textAlign: 'center'}}>
+            <div style={{paddingTop: '200px', textAlign: 'center'}}>
                 <div style={{width: "50%", margin: "0 auto"}}>
                     <p>
                         Audio stuff around here
